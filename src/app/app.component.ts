@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'nx-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  // tslint:disable-next-line:component-selector
+  selector: 'my-app',
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'nx';
+  subtitle = '(Lazy, Shared, Core)';
 }
